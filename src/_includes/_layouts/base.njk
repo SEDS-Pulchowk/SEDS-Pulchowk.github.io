@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% include "basehead.njk" %}
+    {% block head %} {% endblock %}
+</head>
+<body>
+    <header>
+
+        {% include "navbar2.njk" %}
+
+    </header>
+    <main>
+        {{ content |safe }} 
+    </main>
+    <footer>
+        {% include "footer.njk" %}
+    </footer>
+</body>
+</html>
