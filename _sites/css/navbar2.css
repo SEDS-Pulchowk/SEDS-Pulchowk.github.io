@@ -7,7 +7,7 @@ h2 {
 html, body {
   margin: 0;
   height: 100%;
-  background: linear-gradient(to right, #3c99cc, #000000);
+  /* background: linear-gradient(to right, #233844, #000000); */
 
 }
 
@@ -120,7 +120,7 @@ ul{
   transform: rotate(-405deg);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 400px) {
   .menu-button-container {
     display: flex;
   }
@@ -131,8 +131,8 @@ ul{
     right: 0;
     flex-direction: column;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-color: #000000;
     /* display: none; */
   }
