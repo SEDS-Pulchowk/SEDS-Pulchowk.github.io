@@ -8,9 +8,6 @@
     "start": "eleventy --serve",
     "build": "npx eleventy",
     "deploy": "gh-pages -d build"
-
-
-
   },
   "keywords": [],
   "author": "",
@@ -21,6 +18,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "github:11ty/eleventy-fetch",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "eleventy": "^1.0.6"
   }
 }
