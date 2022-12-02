@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
     "start": "eleventy --serve",
-    "build": "npx eleventy"
+    "build": "npx eleventy",
+    "deploy": "gh-pages -d build"
+
+
+
   },
   "keywords": [],
   "author": "",
