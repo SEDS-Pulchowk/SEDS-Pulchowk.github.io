@@ -1,13 +1,12 @@
 {
   "name": "seds_eleventy",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "start": "eleventy --serve",
     "build": "npx eleventy",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d _sites"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +20,14 @@
     "@11ty/eleventy-fetch": "github:11ty/eleventy-fetch",
     "dotenv": "^16.0.3",
     "eleventy": "^1.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEDS-Pulchowk/seds-pulchowk.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SEDS-Pulchowk/seds-pulchowk.github.io/issues"
+  },
+  "homepage": "https://github.com/SEDS-Pulchowk/seds-pulchowk.github.io#readme",
+  "description": ""
 }
