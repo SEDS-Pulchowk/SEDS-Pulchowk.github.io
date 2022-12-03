@@ -14,7 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "common-tags": "^1.8.2"
+    "common-tags": "^1.8.2",
+    "gh-pages": "^4.0.0"
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "github:11ty/eleventy-fetch",
