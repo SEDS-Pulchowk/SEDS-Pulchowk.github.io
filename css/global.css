@@ -1,0 +1,31 @@
+@import url('./reset.css');
+@import url('./navbar2.css');
+@import url('./footer.css');
+/* body {
+    background-color: #00000096;
+    color: #243337;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #516169, #000000);
+    color: #243337;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+header{
+    background-color: rgba(37, 37, 37, 0.505);
+}
