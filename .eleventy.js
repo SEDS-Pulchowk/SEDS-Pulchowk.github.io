@@ -1,4 +1,5 @@
 const Card = require("./src/_includes/components/Card");
+const ProjectCard = require("./src/_includes/components/projects");
 
 module.exports=function 
     (eleventyConfig){
@@ -9,6 +10,7 @@ module.exports=function
         eleventyConfig.addWatchTarget("src/css/");
 
         eleventyConfig.addShortcode("Card", Card);
+        eleventyConfig.addShortcode("ProjectCard",ProjectCard);
     // eleventyConfig.setBrowserSyncConfig({
     //     notify: true
     //   });

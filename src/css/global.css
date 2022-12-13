@@ -14,8 +14,8 @@
 }
 
 body {
-    background: linear-gradient(to right, #516169, #000000);
-    color: #243337;
+    background: linear-gradient(to right, #071117, #000000);
+    color: #161c1e;
     font-family: cursive;
 }
 
@@ -27,5 +27,5 @@ li {
     list-style: none;
 }
 header{
-    background-color: rgba(37, 37, 37, 0.505);
+    background-color: rgba(72, 84, 99, 0.505);
 }

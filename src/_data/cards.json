@@ -1,21 +1,56 @@
 [
     {
-        "title":"Card 1 Title",
-        "link" : "/contact",
-        "linkText": "contact",
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "President",
         "raised":  true
     },
-
     {
-        "title":"Card 2 Title",
-        "link" : "/contact",
-        "linkText": "contact",
-        "raised":  false
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Vice",
+        "raised":  true
     },
     {
-        "title":"Card 3 Title",
-        "link" : "/contact",
-        "linkText": "contact",
-        "raised": true
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
+    },    
+    {
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
+    },    
+    {
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
+    },    
+    {
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
+    },       
+    {
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
+    }, 
+    {
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
+    },
+    {
+        "img":"/assets/_images/me.jpg",
+        "name" : "Sabin Shrestha",
+        "post": "Web Master",
+        "raised":  true
     }
 ]

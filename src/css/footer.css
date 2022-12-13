@@ -1,7 +1,7 @@
 
 footer{
-    background-color: rgba(34, 34, 34, 0.5);
-    position: absolute;
+    background-color: rgba(72, 84, 99, 0.505);
+    position: -web-sticky;
     bottom: 0;
     left: 0;
     right: 0;
@@ -21,12 +21,12 @@ footer{
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 .footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 10px;
+    line-height: 5px;
     font-size: 14px;
     color: #cacdd2;
 }
@@ -45,8 +45,8 @@ footer{
 .socials a{
     text-decoration: none;
     color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
+    border: 1px solid white;
+    padding:5px;
     border-radius: 50%;
 }
 
@@ -62,9 +62,10 @@ footer{
 .footer-bottom{
     background: #000;
     width: 100vw;
-    padding: 2px;
-    padding-bottom: 1px;
+    padding: 0px;
+    padding-bottom: 0px;
     text-align: center;
+    position: sticky;
 }
 .footer-bottom p{
     float: left;
