@@ -1,0 +1,20 @@
+@import "card.css";
+#aboutMembers{
+    width: 80%;
+    /* position: ; */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    border: 1px solid;
+    display: flex;
+    background-color: rgb(100, 92, 89);
+    /* left: 50%; */
+    /* top: 50%; */
+    /* right: 25%; */
+    margin: auto;
+    flex-direction: column;
+    /* float: left; */
+    /* width: 25%; */
+    padding: 0 1px;
+
+}

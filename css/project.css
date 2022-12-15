@@ -1,0 +1,7 @@
+@import "projectcard.css";
+.project_container{
+    width: 50%;
+    height: 50%;
+    align-content: center;
+    background-color: blue;
+}
