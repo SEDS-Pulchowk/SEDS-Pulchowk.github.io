@@ -19,7 +19,8 @@
   "dependencies": {
     "@11ty/eleventy-fetch": "github:11ty/eleventy-fetch",
     "dotenv": "^16.0.3",
-    "eleventy": "^1.0.6"
+    "eleventy": "^1.0.6",
+    "node": "^19.3.0"
   },
   "repository": {
     "type": "git",
