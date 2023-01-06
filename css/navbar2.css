@@ -17,6 +17,7 @@ html, body {
   color: aliceblue;
 }
 
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -27,6 +28,7 @@ html, body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 80px;
   padding: 0;
+  position: -webkit-sticky;
 }
 .nav-li:hover{
   background-color: rgba(26, 25, 25, 0.732);
@@ -120,6 +122,53 @@ ul{
   transform: rotate(-405deg);
 }
 
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(26, 25, 25, 0.732);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(26, 25, 25, 0.732);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 @media (max-width: 600px) {
   .menu-button-container {
     display: flex;
@@ -137,7 +186,7 @@ ul{
     /* background-color: rgba(26, 25, 25, 0.732); */
     /* display: none; */
   }
-  #menu-toggle ~ .menu li {
+  #menu-toggle ~ .menu li, .dropbtn{
     height: 0;
     margin: 0;
     padding: 0;
@@ -145,7 +194,7 @@ ul{
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     display: none;
   }
-  #menu-toggle:checked ~ .menu li {
+  #menu-toggle:checked ~ .menu li , .dropdown{
     /* border: 1px solid #333; */
     height: 5em;
     padding: 0.8em;
@@ -155,7 +204,7 @@ ul{
     background-color: rgba(26, 25, 25, 0.732);
 
   }  
-  .menu > li {
+  .menu > li{
     display: flex;
     justify-content: center;
     margin: 0;
